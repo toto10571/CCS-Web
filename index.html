@@ -554,6 +554,35 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
+
+
+
+
+
+<script src="https://getchat.app/assets/js/min/getchatapp.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var gcaMain = new GetChatApp({
+    'mobileNumber' : '+226 75791699',
+    'titleMessage' : '👋 Contacter nous sur WhatsApp!',
+    'welcomeMessage': 'Bienvenue chez CCS Sarl!<br /> <br /> Rentrer directement en contact avec un agent.<br /> <br /> ~CCS Sarl',
+    'position' : 'right'
+    'platforms' : {
+        'whatsapp' : true,
+        'facebook' : false,
+        'email' : false,
+        'instagram' : false,
+        'telegram' : false,
+    },
+    'facebookPageId' : '',
+    'gcaEmailAddress' : '',
+    'gcaEmailSubject' : '',
+    'gcaInstagramUsername' : '',
+    'gcaTelegramUsername' : '',
+  });
+});
+</script>
+
 </body>
 
 </html>
