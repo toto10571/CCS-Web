@@ -1,3 +1,42 @@
+.btn.btn-primary {
+    background: #000f3c;
+    color: #fff;
+    padding: 15px 20px; }
+
+
+
+
+
+label.error {
+  font-size: 12px;
+  color: red; }
+
+#message {
+  resize: vertical; }
+
+#form-message-warning, #form-message-success {
+  display: none; }
+
+#form-message-warning {
+  color: #B90B0B; }
+
+#form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold; }
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000; }
+
+
+
+
 @import url("font-awesome.min.css");
 body {
   font-family: "Poppins", sans-serif;
