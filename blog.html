@@ -143,20 +143,20 @@
             </div>
             <div class="col-md-6">
               
-              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+              <form class="mb-5" method="post" id="contactForm" name="contactForm" data-netlify="true">
                 <div class="row">
                   <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Votre nom">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Votre nom" required>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
                   </div>
                 </div>
                 <div class="row">
@@ -241,8 +241,8 @@
             <h5>
               Newsletter
             </h5>
-            <form action="#">
-              <input type="email" placeholder="Entrez votre email">
+            <form action="#" data-netlify="true">
+              <input type="email" name="email" placeholder="Entrez votre email">
               <button>
                 Souscrire
               </button>
